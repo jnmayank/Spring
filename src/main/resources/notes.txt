@@ -1,0 +1,27 @@
+API Versioning
+
+	1. via URIs like /getperson/v1
+	
+ - media type aka content negotiation : Github
+ 
+ - (custom) header: Microsoft
+ 
+ - URI : Twitter
+ 
+ - Request parameter versioning : Amazon
+ 
+ Factors
+ 
+ 	1. URI pollution
+ 	2. Misuse of HTTP headers
+ 	3. caching
+ 	4. can we execute the request on bowser
+ 	5. API documentation.
+ 	
+ No perfect solution
+ 
+ more links
+ 	- http://urthen.github.io/2013/05/09/ways-to-version-your-api/
+ 	- https://www.mnot.net/blog/2011/10/25/web_api_versioning_smackdown
+ 	
+ 	
